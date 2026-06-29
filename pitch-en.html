@@ -13,7 +13,7 @@
   #deck{counter-reset:s}
   .slide{position:relative;min-height:100vh;display:flex;flex-direction:column;justify-content:safe center;
     padding:clamp(40px,5.5vw,90px) clamp(28px,5vw,96px) 86px;scroll-snap-align:start;border-bottom:1px solid var(--line);counter-increment:s}
-  .slide::after{content:counter(s,decimal-leading-zero) " / 14";position:absolute;top:22px;right:26px;color:var(--mut);font-size:13px;letter-spacing:.08em;font-variant-numeric:tabular-nums}
+  .slide::after{content:counter(s,decimal-leading-zero) " / 7";position:absolute;top:22px;right:26px;color:var(--mut);font-size:13px;letter-spacing:.08em;font-variant-numeric:tabular-nums}
   .slide.cover{counter-increment:none}
   .slide.cover::after{content:none}
   .kick{color:var(--lime);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:clamp(11px,1.3vw,14px);margin-bottom:16px}
@@ -239,44 +239,9 @@
         <div class="band b4"><div class="idx">4</div><div class="ttl">Retain</div><div class="dsc">Trusted reviews keep them in our network.</div></div>
         <div class="band b5"><div class="idx">5</div><div class="ttl">Lead</div><div class="dsc">Track the journey; hand the buyer to the dealer.</div></div>
       </div>
-      <figure class="shot"><img src="./shot-su7-en.png" alt="A Chinese EV shown as the analog of a BMW on autopase.lv"><figcaption>“Intercept”, live on autopase.lv — a Chinese EV shown as the analog</figcaption></figure>
+      <figure class="shot"><img src="./shot-offer-en.png" alt="A BYD Seal offered beside a BMW you are viewing, on autopase.lv"><figcaption>“Intercept”, live on autopase.lv — a BYD Seal beside the BMW you’re viewing · same money, a class above</figcaption></figure>
     </div>
     <p class="note"><span class="tag f">context</span> The average car-buying journey is <b>87 days and 14+ hours</b> of research — <b>20–25 touchpoints</b> across many angles, not one ad on repeat.</p>
-  </section>
-
-  <!-- 5 unit economics -->
-  <section class="slide">
-    <div class="kick">Unit economics · one funnel</div>
-    <h2>A €38k asset — up to €126k a year per funnel.</h2>
-    <table>
-      <tr><th colspan="2">Per funnel / year</th></tr>
-      <tr class="mine"><td>Cost of asset — deploy €10k · SEO €15k · maintenance €13k</td><td>€38,000</td></tr>
-      <tr><td>Qualified leads delivered <span style="color:var(--mut);font-weight:400">(~€452 cost each)</span></td><td>84</td></tr>
-      <tr><td>Dealer fee per car sold <span style="color:var(--mut);font-weight:400">(in validation)</span></td><td>€1,500</td></tr>
-    </table>
-    <div class="kpis" style="margin-top:18px">
-      <div class="kpi"><div class="n">~€38k</div><div class="l">at 30% close — break-even</div></div>
-      <div class="kpi"><div class="n">€63k</div><div class="l">at 50% dealer close rate</div></div>
-      <div class="kpi"><div class="n">€126k</div><div class="l">at full close — upside ceiling</div></div>
-    </div>
-    <p class="note"><span class="tag r">illustrative</span> Revenue scales with the dealer close rate — the lever we optimize. Gross = 84 leads × close-rate × €1,500. Dealers pay only on a sale (fee in validation).</p>
-  </section>
-
-  <!-- 6 market -->
-  <section class="slide">
-    <div class="kick">Market</div>
-    <h2>A billion-euro fee pool — we start where we already win.</h2>
-    <div class="bands" style="max-width:980px">
-      <div class="band b1"><div class="idx">TAM</div><div class="ttl">€1.16B → €3.2B</div><div class="dsc">Europe-wide dealer-fee pool if we drove every Chinese-EV sale (×€1,500); €3.2B at the 2030 China share.</div></div>
-      <div class="band b3"><div class="idx">SAM</div><div class="ttl">€63M / yr</div><div class="dsc">Chinese-EV fee pool in our launch markets — Latvia + Poland.</div></div>
-      <div class="band b5"><div class="idx">SOM</div><div class="ttl">≈€1.5M</div><div class="dsc">Annual revenue we target as funnels reach full ramp (~12–24 months).</div></div>
-    </div>
-    <div class="kpis">
-      <div class="kpi"><div class="n">~13.3M</div><div class="l">new cars / yr · Europe</div></div>
-      <div class="kpi"><div class="n">~6% → ~16%</div><div class="l">Chinese-brand share · 2025 → 2030</div></div>
-      <div class="kpi"><div class="n">€1,500</div><div class="l">our fee per car sold</div></div>
-    </div>
-    <p class="src">Basis: Chinese-EV car sales × €1,500 fee (not vehicle value). Sources: ACEA · JATO Dynamics · AlixPartners 2030 outlook · PZPM/SAMAR · CSDD.</p>
   </section>
 
   <!-- 7 opportunity -->
@@ -289,18 +254,6 @@
       <li><b>China already won</b> Africa, the Middle East and Asia. Europe is next — demand must be built, not just listed.</li>
     </ul>
     <p class="src">JATO H1-2025: Chinese brands hit a record 5.1% of Europe (+91% YoY); BYD +311% to 70,500 units. Battery-electric is 17.4% of EU new cars (ACEA, 2025).</p>
-  </section>
-
-  <!-- 8 go-to-market -->
-  <section class="slide">
-    <div class="kick">Go-to-market</div>
-    <h2>An easy yes: dealers pay only on results.</h2>
-    <p class="lead">No onboarding fees, no subscriptions — <span class="lime">€1,500 only after a car sells.</span></p>
-    <div class="two2">
-      <div class="card"><h4>What the dealer brings</h4><p>One dedicated manager and a brand catalog with specs. That’s it.</p></div>
-      <div class="card"><h4>What we bring</h4><p>Everything else — traffic, guidance, comparisons, the qualified lead.</p></div>
-    </div>
-    <p class="note"><span class="tag f">moat</span> Compounding organic-search position + cross-domain buyer-journey data + exclusive per-market dealer contracts — each funnel gets harder to copy as it matures. <span class="tag r" style="margin-left:6px">validation in progress</span> Signing Latvian dealers now.</p>
   </section>
 
   <!-- 9 funnel as a model -->
@@ -317,56 +270,6 @@
       <div class="bcard gen"><div class="bn">+ 3–4 general portals</div><div class="bd">autopase-style comparison hubs covering the whole market.</div></div>
     </div>
     <p class="note">Poland plan: ~3–4 general portals + 6 brand-specialized sites — each site is one funnel, all running the same Journey System.</p>
-  </section>
-
-  <!-- 10 roadmap -->
-  <section class="slide">
-    <div class="kick">Roadmap</div>
-    <h2>One funnel now → a network across Poland.</h2>
-    <div class="timeline">
-      <div class="mile"><div class="dot"></div><div class="ph">Months 1–6 · Angel</div><div class="am raise">€38k</div><div class="lab">raise</div><div class="d">Launch one Journey System funnel in Poland; show real leads.</div></div>
-      <div class="mile"><div class="dot"></div><div class="ph">Month 6 · Pre-seed</div><div class="am raise">€500k</div><div class="lab">raise</div><div class="d">Scale to 10 Polish funnels + ongoing operations.</div></div>
-      <div class="mile"><div class="dot"></div><div class="ph">Month 12 · Seed</div><div class="am rev">~€1.5M / yr</div><div class="lab">annual run-rate · target</div><div class="d">12 active funnels (Poland + Baltics), ramping to full output.</div></div>
-    </div>
-    <p class="note">Prove it on the smallest market (Latvia) and the biggest in the region (Poland) — and every market in between falls into place on its own.</p>
-  </section>
-
-  <!-- 10 vision -->
-  <section class="slide">
-    <div class="kick">Vision</div>
-    <h2>An asset-light engine that guides buyers to any high&#8209;value market.</h2>
-    <div class="flow" style="grid-template-columns:1fr 60px 1fr">
-      <div class="dest" style="border-top-color:var(--lime)"><div class="t">Today</div><div class="s">Guiding buyers to Chinese electric vehicles</div></div>
-      <div class="arrow">→</div>
-      <div class="dest" style="border-top-color:var(--blue)"><div class="t">Tomorrow</div><div class="s">Guiding buyers to the robotics market — and beyond</div></div>
-    </div>
-    <p class="lead mut">“Guides buyers to target sellers” is product-agnostic. Once the engine works, the category is just a setting.</p>
-  </section>
-
-  <!-- 11 ask -->
-  <section class="slide">
-    <div class="kick">The ask · angel round</div>
-    <h2>€38,000 for 8% — to replicate the Journey System in Poland.</h2>
-    <div class="kpis">
-      <div class="kpi"><div class="n">€10k</div><div class="l">Infrastructure & data aggregation</div></div>
-      <div class="kpi"><div class="n">€15k</div><div class="l">Organic acceleration (SEO)</div></div>
-      <div class="kpi"><div class="n">€13k</div><div class="l">Maintenance & data indexing</div></div>
-    </div>
-    <div class="formula">One funnel proves the model in Poland<span class="big">€38k in → €126k gross / year per funnel</span></div>
-    <p class="note">€38k for 8% ≈ €475k post — priced on a working engine and a live pilot. Then a €500k pre-seed (on proven Poland leads) scales to 10 funnels.</p>
-  </section>
-
-  <!-- 12 team -->
-  <section class="slide">
-    <div class="kick">Team</div>
-    <h2>Operators who’ve built and scaled before.</h2>
-    <div class="team">
-      <div class="member"><div class="av">JL</div><div><div class="nm">Jevgeni Lobats</div><div class="ro">CEO</div><div class="bo">Serial entrepreneur, 20+ years across the EU, UK and Asia — companies scaled from zero to €100M+. Deep in IT, fintech and trade.</div></div></div>
-      <div class="member"><div class="av">AD</div><div><div class="nm">Aleksandrs Dudarevs</div><div class="ro">CTO</div><div class="bo">20+ years in IT and engineering management; launched market-leading transport and logistics solutions across the Baltics.</div></div></div>
-      <div class="member"><div class="av">AP</div><div><div class="nm">Anton Patrai</div><div class="ro">CMO / Growth</div><div class="bo">10+ years scaling B2B. Ex-Head of Growth at TimelinesAI (3× YoY, AMER/LATAM); co-founder of FlyHelp (23 jurisdictions); builds AI-driven growth automation.</div></div></div>
-      <div class="member"><div class="av">JŠ</div><div><div class="nm">Jevgēnijs Štrauss</div><div class="ro">Head of R&D · Architect</div><div class="bo">24 years in software architecture; built high-load telemetry for 10,000+ connected vehicles. Multiple tech startups.</div></div></div>
-    </div>
-    <p class="note">The core team has built technology startups together since 2021.</p>
   </section>
 
 </div>
